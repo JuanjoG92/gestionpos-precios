@@ -1,15 +1,16 @@
 {
   "regulares": [
-    { "Nombre": "Plan Mensual", "Meses": 1, "Precio": 1500, "Ahorro": 0 },
+    { "Nombre": "Plan Mensual", "Meses": 1, "Precio": 15500, "Ahorro": 0 },
     { "Nombre": "Plan Semestral", "Meses": 6, "Precio": 95000, "Ahorro": 17 },
     { "Nombre": "Plan Anual", "Meses": 12, "Precio": 150000, "Ahorro": 34 }
   ],
   "especiales": [
-    { "Nombre": "Plan Mensual", "Meses": 1, "Precio": 4500, "Ahorro": 50 },
+    { "Nombre": "Plan Mensual", "Meses": 1, "Precio": 14500, "Ahorro": 50 },
     { "Nombre": "Plan Semestral", "Meses": 6, "Precio": 47500, "Ahorro": 50 },
     { "Nombre": "Plan Anual", "Meses": 12, "Precio": 75000, "Ahorro": 50 }
   ]
 
 }
+
 
 
