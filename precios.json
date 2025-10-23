@@ -1,6 +1,6 @@
 {
   "regulares": [
-    { "Nombre": "Plan Mensual", "Meses": 1, "Precio": 9000, "Ahorro": 0 },
+    { "Nombre": "Plan Mensual", "Meses": 1, "Precio": 18500, "Ahorro": 0 },
     { "Nombre": "Plan Semestral", "Meses": 6, "Precio": 95000, "Ahorro": 17 },
     { "Nombre": "Plan Anual", "Meses": 12, "Precio": 150000, "Ahorro": 34 }
   ],
@@ -11,3 +11,4 @@
   ]
 
 }
+
