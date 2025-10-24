@@ -16,12 +16,12 @@ Si no existe, crea uno nuevo:
 ```json
 {
   "regulares": [
-    { "Nombre": "Plan Mensual", "Meses": 1, "Precio": 119000, "Ahorro": 0 },
+    { "Nombre": "Plan Mensual", "Meses": 1, "Precio": 19000, "Ahorro": 0 },
     { "Nombre": "Plan Semestral", "Meses": 6, "Precio": 95000, "Ahorro": 17 },
     { "Nombre": "Plan Anual", "Meses": 12, "Precio": 150000, "Ahorro": 34 }
   ],
 "especiales": [
-    { "Nombre": "Plan Mensual", "Meses": 1, "Precio": 9500, "Ahorro": 50 },
+    { "Nombre": "Plan Mensual", "Meses": 1, "Precio": 91500, "Ahorro": 50 },
     { "Nombre": "Plan Semestral", "Meses": 6, "Precio": 47500, "Ahorro": 50 },
     { "Nombre": "Plan Anual", "Meses": 12, "Precio": 75000, "Ahorro": 50 }
   ]
@@ -102,4 +102,5 @@ La app NUNCA falla.
 ---
 
 *¡Así de simple! Copia-pega y listo.* 🎉
+
 
