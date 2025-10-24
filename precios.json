@@ -1,106 +1,12 @@
-# 📋 COPIA-PEGA ESTO A TU GITHUB
-
-## **PASO 1: Ve a tu repositorio**
-```
-https://github.com/JuanjoG92/gestionpos-precios
-```
-
-## **PASO 2: Click en `precios.json`**
-
-Si no existe, crea uno nuevo:
-- Click en `Add file` → `Create new file`
-- Nombre: `precios.json`
-
-## **PASO 3: Copia-pega EXACTAMENTE esto:**
-
-```json
 {
   "regulares": [
     { "Nombre": "Plan Mensual", "Meses": 1, "Precio": 19000, "Ahorro": 0 },
     { "Nombre": "Plan Semestral", "Meses": 6, "Precio": 95000, "Ahorro": 17 },
     { "Nombre": "Plan Anual", "Meses": 12, "Precio": 150000, "Ahorro": 34 }
   ],
-"especiales": [
-    { "Nombre": "Plan Mensual", "Meses": 1, "Precio": 91500, "Ahorro": 50 },
+  "especiales": [
+    { "Nombre": "Plan Mensual", "Meses": 1, "Precio": 9500, "Ahorro": 50 },
     { "Nombre": "Plan Semestral", "Meses": 6, "Precio": 47500, "Ahorro": 50 },
     { "Nombre": "Plan Anual", "Meses": 12, "Precio": 75000, "Ahorro": 50 }
   ]
 }
-```
-
-## **PASO 4: Commit**
-- Click en `Commit changes`
-- Descripción: `Actualizar precios`
-- Click `Commit`
-
-## **PASO 5: ¡LISTO!**
-
-En 5-15 minutos, tus usuarios verán los nuevos precios.
-
----
-
-## **PARA ACTUALIZAR PRECIOS DESPUÉS:**
-
-### Cambiar un precio:
-
-**ANTES:**
-```json
-{ "Nombre": "Plan Mensual", "Meses": 1, "Precio": 19000, "Ahorro": 0 }
-```
-
-**DESPUÉS:**
-```json
-{ "Nombre": "Plan Mensual", "Meses": 1, "Precio": 25000, "Ahorro": 0 }
-```
-
-Luego:
-1. Commit & push
-2. Espera 10-15 minutos
-3. ¡Listo! Próxima apertura de app verá nuevo precio ✅
-
----
-
-## **ESTRUCTURA CORRECTA DEL JSON**
-
-⚠️ **IMPORTANTE: Debe ser EXACTAMENTE así**
-
-```
-{
-  "regulares": [ ARRAY CON 3 ELEMENTOS ],
-  "especiales": [ ARRAY CON 3 ELEMENTOS ]
-}
-```
-
-### **Cada elemento DEBE tener:**
-- `"Nombre"`: Texto (Plan Mensual / Semestral / Anual)
-- `"Meses"`: Número (1 / 6 / 12)
-- `"Precio"`: Número SIN comillas (19000, no "19000")
-- `"Ahorro"`: Número (0, 17, 34, 50)
-
----
-
-## **VALIDACIÓN**
-
-¿JSON está bien?
-
-Usa: https://jsonlint.com/
-
-Pega tu JSON y verifica que dice ✅ "Valid JSON"
-
----
-
-## **¿Y SI COMETO ERROR?**
-
-No hay problema:
-1. Si el JSON tiene error, la app usa precios por defecto
-2. Corriges el JSON
-3. Esperas 10 minutos
-4. ¡Listo!
-
-La app NUNCA falla.
-
----
-
-*¡Así de simple! Copia-pega y listo.* 🎉
-
-
