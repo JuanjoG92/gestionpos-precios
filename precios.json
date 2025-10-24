@@ -4,7 +4,7 @@
     {
       "Nombre": "Plan Mensual",
       "Meses": 1,
-      "Precio": 19000,
+      "Precio": 195000,
       "Ahorro": 0
     },
     {
@@ -43,3 +43,4 @@
   "ultima_actualizacion": "2024-12-19T10:30:00Z",
   "version": "1.0"
 }
+
